@@ -1,4 +1,8 @@
+:root{
+    --primary-color: #b80000;
+    --secondary-color: #ffffff;   
 
+}
 
 
 *{
@@ -9,17 +13,25 @@
 }
 .parant{
     margin: 20px auto;
-    height: 500px;
+    height: auto;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+    grid-template-columns: repeat(35, minmax(200px, 1fr));
 
 }
-
+.parant .card{
+    
+    height: 250px;
+    
+}
 .parant .card .card-content p{
     font-weight: 600;
     
 }
+
+
+
 
 .parant .card{
     color: white ;
@@ -70,7 +82,7 @@
 
 .parant .card:hover img{
     transform: scale(1.2);
-    filter: blur(5px);
+    filter: blur(4px);
     border: 2px solid #ffffff;  
 }
 
@@ -98,4 +110,9 @@
     text-align: center;
     transition: 0.5s;
 
+}
+
+
+.parant {
+    overflow: auto;
 }
