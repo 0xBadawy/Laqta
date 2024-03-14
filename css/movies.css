@@ -1,0 +1,101 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.parant{
+    margin: 20px auto;
+    height: 500px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+
+}
+
+.parant .card .card-content p{
+    font-weight: 600;
+    
+}
+
+.parant .card{
+    color: white ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    background-color: #b80000;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.parant .card .content{
+   /* display: none; */
+   text-align: center;
+    position: absolute;
+    
+
+   
+}
+
+.parant .card h3{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 34;
+    color: rgb(30, 19, 19);
+    text-align: center;
+    transition: 0.5s;
+}
+
+.parant .card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.parant .card:hover img{
+    transform: scale(1.2);
+    filter: blur(5px);
+    border: 2px solid #ffffff;  
+}
+
+.parant .card:hover h3{
+    display: block;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(0%, -50%);
+    z-index: 34;
+    color: rgb(30, 19, 19);
+    text-align: center;
+    transition: 0.5s;
+    
+}
+
+.parant .card:hover p {
+    display: block;
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    transform: translate(0%, -10%);
+    z-index: 34;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    transition: 0.5s;
+
+}
