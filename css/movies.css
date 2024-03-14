@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #b80000;
-    --secondary-color: #ffffff;   
+    --primary-color: #07dd63;
+    --secondary-color: #000;   
 
 }
 
@@ -10,21 +10,38 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: var(--secondary-color);
+    font-family: "Cairo", sans-serif;
+    font-family: "Lalezar", system-ui;
+    font-family: "Rubik", sans-serif;
 }
 .parant{
+    direction: rtl;
     margin: 20px auto;
     height: auto;
-    background-color: #ffffff;
+    background-color:var(--secondary-color);
     display: grid;
-
-    grid-template-columns: repeat(35, minmax(200px, 1fr));
-
+    height: 310px;
+    padding: 20px 0px 0px 0px;
 }
-.parant .card{
-    
-    height: 250px;
-    
+
+
+
+.MoviesOne::-webkit-scrollbar {
+    width: 1px;
+    height: 7px;
 }
+.MoviesOne::-webkit-scrollbar-track {
+    background-color: #e4e4e4;
+    border-radius: 60px;
+}
+.MoviesOne::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 60px;
+}
+
+
+
 .parant .card .card-content p{
     font-weight: 600;
     
@@ -42,8 +59,9 @@
     margin: 5px;
     padding: 0px;
     border-radius: 10px;
-    box-shadow: 0 0 10px 0 #000;
+    box-shadow: 0 0 30px 0 #919191;
     color: rgb(255, 255, 255);
+    height: 250px;
     text-align: center;
     position: relative;
     overflow: hidden;
@@ -58,6 +76,35 @@
    
 }
 
+.MoviesOne{
+    grid-template-columns: repeat(15, minmax(200px, 1fr));
+}
+.MoviesTwo{
+    height: auto;
+    width: 100%;
+    grid-template-columns: repeat(9, minmax(200px, 1fr));
+    /* padding: 50px; */
+}
+
+.MoviesTwo .card{
+    height: 300px;
+        box-shadow: 0 0 30px 0 #91919162;
+}
+
+.MainBoxOne{
+    direction: rtl;
+    padding: 20px;
+    color: white;
+}
+
+.MainBoxTwo {
+    direction: rtl;
+    padding: 20px;
+    color: white;
+    margin-top: -20px;
+}
+
+
 .parant .card h3{
     display: none;
     position: absolute;
@@ -68,6 +115,11 @@
     color: rgb(255, 255, 255);
     text-align: center;
     transition: 0.5s;
+    background-color: transparent;
+}
+
+.parant .card p {
+    background-color: transparent;
 }
 
 .parant .card img{
@@ -80,7 +132,15 @@
     transition: 0.5s;
 }
 
-.parant .card:hover img{
+.parant .card .IconImage{
+   z-index: 22;
+   height: 20px;
+   width: 70px;
+    background-color: transparent;
+
+}
+
+.parant .card:hover .FilmImage{
     transform: scale(1.2);
     filter: blur(4px);
     border: 2px solid #ffffff;  
@@ -116,3 +176,6 @@
 .parant {
     overflow: auto;
 }
+
+
+/* sa */

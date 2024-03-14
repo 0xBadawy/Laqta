@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #07dd63;
+    --secondary-color: #000;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--secondary-color);
+    font-family: "Cairo", sans-serif;
+    font-family: "Lalezar", system-ui;
+    font-family: "Rubik", sans-serif;
+}
+
+.cover{
+    background-image: url(../images/co.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;    
+
+}
+
+.cover .Image{
+    background-image: url(../images/co.jpg);
+    background-repeat: repeat-x;
+}
