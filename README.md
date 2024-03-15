@@ -1,8 +1,10 @@
 <div align="center">
 
-<img height="100" src="https://github.com/Mohamed-badawy-sayed/ITI.Web.Projecr/blob/abdf13199a04fa31caadd5870895be8d99e99788/images/laqta-logo.png">
-<h1>laqta</h1>
 
+
+<img height="100" src="images/laqta-logo.png">
+<br>
+<H7>اول منصة افلام من قلب الصعيد🫡👳🏻‍♂️</H7>
+<hr>
 </div>
 <div align="center">
-
