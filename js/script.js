@@ -1,10 +1,9 @@
 
 function GetRundomNumber() {
-    var N1= Math.floor(Math.random() * 10);
-    var N2= Math.floor(Math.random() * 10);
-    console.log(N1+N2);
-    return N1 + N2;    
+    return Math.floor(Math.random() * 600) + 1;
 }
+
+
 var topparant;
 var size;
 var arr = ["العاتولة", "المداح", "لحشاشين", "مسار إجباري", "بيت الرفاعي",
@@ -28,7 +27,8 @@ function apeend(topparant,size) {
         ElemnetCard.className = 'card';
         ElemnetImage.className = 'FilmImage';
         var RundomNumber = GetRundomNumber();
-        ElemnetImage.src = "../images/film ("+RundomNumber+").webp";
+        console.log("../images/film ("+RundomNumber+").jpeg");
+        ElemnetImage.src = "../images/film ("+RundomNumber+").jpeg";
         ElemnetCardContent.className = 'card-content';   
         
         ElemnetH3.appendChild(TextH3);
