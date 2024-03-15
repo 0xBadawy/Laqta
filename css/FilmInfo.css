@@ -22,9 +22,75 @@
     background-size: cover;
     background-position: center;    
 
+
+}
+.cover .Image {
+  
+
+
+}
+.cover .Image h1,
+.cover .Image p,
+.cover .Image a {
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    font-weight: 600;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 20px;
 }
 
-.cover .Image{
-    background-image: url(../images/co.jpg);
-    background-repeat: repeat-x;
+.cover .Image h1 {
+    font-size: 50px;
+    top: 35%;
 }
+
+.cover .Image p {
+    top: 45%;
+}
+
+.cover .Image a {
+    top: 60%;
+    right: 30px;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+
+.cover .Image a img {
+   background-color: white;
+width: 20px;
+}
+.cover .Image {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    bottom: 0;
+    left: 9px;
+    padding: 18px;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(90deg, rgba(15, 10, 5, 0) 0%, rgba(15, 10, 5, .793519) 61.79%, #0f0a05 89.45%),
+        linear-gradient(180deg, transparent, #0f0a05)
+}
+
+.cover .Image h1 {
+    font-size: 50px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+
+
