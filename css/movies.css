@@ -79,16 +79,17 @@
 .MoviesOne{
     grid-template-columns: repeat(15, minmax(200px, 1fr));
 }
+
 .MoviesTwo{
     height: auto;
     width: 100%;
-    grid-template-columns: repeat(9, minmax(200px, 1fr));
+    grid-template-columns: repeat(7, minmax(200px, 1fr));
     /* padding: 50px; */
 }
 
 .MoviesTwo .card{
     height: 300px;
-        box-shadow: 0 0 30px 0 #91919162;
+    box-shadow: 0 0 30px 0 #91919162;
 }
 
 .MainBoxOne{
