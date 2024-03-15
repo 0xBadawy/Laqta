@@ -30,8 +30,10 @@
 
 }
 .cover .Image h1,
+.cover .Image h2,
 .cover .Image p,
-.cover .Image a {
+.cover .Image a 
+{
     font-size: 20px;
     color: white;
     background-color: transparent;
@@ -85,11 +87,25 @@ width: 20px;
         linear-gradient(180deg, transparent, #0f0a05)
 }
 
-.cover .Image h1 {
-    font-size: 50px;
-    color: white;
+.cover .Image h2 {
+    font-size: 35px;
     font-weight: 600;
-    margin-bottom: 10px;
+    top: 80%;
+}
+
+
+.MainBoxOne{
+    margin: -120px 50px;
+        background-color:transparent;
+        scroll-behavior: none;
+        height: 100%;
+}
+
+
+.MoviesOne .card {
+    height: 300px;
+    box-shadow: 0 0 10px 0 #91919162;
+            background-color: transparent;
 }
 
 

@@ -1,0 +1,107 @@
+:root {
+    --primary-color: #07dd63;
+    --secondary-color: #000;
+
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--secondary-color);
+    font-family: "Cairo", sans-serif;
+    font-family: "Lalezar", system-ui;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    padding: 0 20px;
+    text-align: center;
+    direction: rtl;
+}
+
+form input{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+    border-color: var(--primary-color);
+}
+
+form{
+    width: 500px;
+    margin: 20px auto;
+}
+
+form input[type="submit"]{
+    background-color: var(--primary-color);
+    color: #fff;
+    cursor: pointer;
+    transition: .3s;
+    font-weight: 500
+}
+
+.google , .face{
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+    background-color: #ffffff;
+        color: #000000;
+        cursor: pointer;
+        transition: .3s;
+        font-weight: 500;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin: 10px 20px;
+        width: 200px;
+}
+.container .header p{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #fff;    
+}
+
+.container .header h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 20px 0;
+    color: #fff;
+}
+
+.google{
+   
+}
+
+.face{
+    background-color: #004bee;
+    color: #fff;
+}
+
+.form p{
+    margin: 20px 0;
+    color: #fff;
+    font-weight: 500;
+
+}
+
+
+.form p a{
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: .3s;
+}
