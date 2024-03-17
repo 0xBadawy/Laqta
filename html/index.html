@@ -1,36 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">   
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Home</title>
-</head>
-<body>
-    
-    <div class="container">
-        <div class="header">
-            <h1>Home</h1>
-        </div>
-        <div class="nav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-        <div class="content">
-            <h2>Welcome to my website</h2>
-            <p>This is a simple website created using HTML and CSS.</p>
-        </div>
-        <div class="footer">
-            <p>&copy; 2021</p>
-        </div>
-    </div>
-    
+    <head>
+        <meta charset="UTF-8">
+        <title>laqta</title>
+        <link rel="stylesheet" href="../css/movies.css">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="../css/FilmInfo.css">
+        <link rel="stylesheet" href="../css/style.css">
 
+        <link
+            href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Lalezar&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet">
+        <icon rel="icon" href="../images/Logo.png">
 
+        </head>
 
-    <script src="../"></script>
-</body>
-</html>
+        <body onscroll="navbar()">
+            <div class="nav">
+                <div class="nav-left">
+                    <ul>
+                        <li><img src="../images/laqta-logo.png" alt="Laqta Logo"></li>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="#">أفلام</a></li>
+                        <li><a href="#series">مسلسلات</a></li>
+                        <li><a href="#">برامج</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right">
+                    <a href="login.html">تسجيل</a>
+                    <input type="text" name="search" id="" placeholder="ابحث عن أفلام، مسلسلات ،....">
+                </div>
+            </div>
+            <div class="cover">
+                <div class="Image">
+                    <h1>الابطال فى مهمة</h1>
+                    <p> بتدور على فيلم ممتع ومشوق ومليان اكشن ومغامرة وكوميديا
+                        ورومانسية تدور على فيلم ممتع ومشوق ومليان اكشن ومغامرة وكوميديا
+                        ورومانسيةتدور على فيلم ممتع ومشوق ومليان اكشن ومغامرة وكوميديا
+                        ورومانسيةتدور على فيلم ممتع ومشوق ومليان اكشن ومغامرة وكوميديا
+                        ورومانسية</p>
+                    <a href="watch.html?id=1">مشاهدة
+                        <img src="../images/play-button-arrowhead.png" alt>
+                    </a>
+                </div>
+            </div>
+            <div class="MainBoxOne" id="series">
+                <h1>مسلسلات مصرية</h1>
+                <div class="parant MoviesOne" id="parantq"></div>
+            </div>
+            <div class="MainBoxOne">
+                <h1>مسلسلات مصرية</h1>
+                <div class="parant MoviesOne" id="parant1"></div>
+            </div>
+
+            <div class="MainBoxOne">
+                <h1>افلام مصرية</h1>
+                <div class="parant MoviesOne" id="parant33"></div>
+            </div>
+
+            <div class="MainBoxTwo">
+                <h1>مسلسلات مش مصرية</h1>
+                <div class="parant MoviesTwo" id="parant2"></div>
+            </div>
+
+            <script src="../js/script.js"></script>
+            <script src="../js/navbar.js"></script>
+            <!-- <script src="../js/filminfoscript.js"></script> -->
+
+        </body>
+
+    </html>

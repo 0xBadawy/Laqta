@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     font-family: "Cairo", sans-serif;
     font-family: "Lalezar", system-ui;
     font-family: "Rubik", sans-serif;
@@ -40,16 +40,27 @@
 }
 
 .cover .Image h1 {
-    font-size: 50px;
-    top: 35%;
-}
-
-.cover .Image p {
+    font-size: 60px;
+    font-weight: 900;
     top: 45%;
 }
 
-.cover .Image a {
+.cover .Image p {
     top: 60%;
+    font-weight: 200;
+    direction: rtl;
+    width: 50%;
+    line-height: 35px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+}
+
+.cover .Image a {
+    top: 75%;
     right: 30px;
     text-decoration: none;
     background-color: white;
@@ -60,7 +71,8 @@
 
 .cover .Image a img {
    background-color: white;
-width: 20px;
+    width: 14px;
+    margin-left: 5px;
 }
 .cover .Image {
     display: flex;
@@ -79,8 +91,8 @@ width: 20px;
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(90deg, rgba(15, 10, 5, 0) 0%, rgba(15, 10, 5, .793519) 61.79%, #0f0a05 89.45%),
-        linear-gradient(180deg, transparent, #0f0a05)
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, -1, .793519) 61.79%, var(--secondary-color) 100%),
+    linear-gradient(180deg, transparent, var(--secondary-color))
 }
 
 .cover .Image h2 {
@@ -91,7 +103,7 @@ width: 20px;
 
 
 .MainBoxOne{
-    margin: -120px 50px;
+    margin: 0px 50px;
         background-color:transparent;
         scroll-behavior: none;
         height: 100%;
@@ -100,7 +112,7 @@ width: 20px;
 
 .MoviesOne .card {
     height: 300px;
-    box-shadow: 0 0 10px 0 #91919162;
+    /* box-shadow: 0 0 10px 0 #91919162; */
             background-color: transparent;
 }
 

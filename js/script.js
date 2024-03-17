@@ -46,7 +46,4 @@ function apeend(topparant,size) {
 
         parant.appendChild(ElemnetCard);
     }
-}
-
-
-
+};

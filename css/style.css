@@ -1,0 +1,91 @@
+* {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 7px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+    border-radius: 60px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: var(--primary-color);
+    border-radius: 60px;
+}
+
+.nav {
+    direction: rtl;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0%);
+}
+
+.nav ul, .nav li, .nav a {
+    text-decoration: none;
+    display: inline;
+    color: white;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav a {
+    margin: 0px 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.nav a:hover {
+    background-color: rgba(255, 255, 255, 10%);
+}
+
+.nav-right a {
+    background-color: rgba(255, 255, 255, 10%);
+    border-radius: 25px;
+}
+
+.nav-right:hover a {
+    background-color: var(--primary-color);
+}
+
+.nav img {
+    height: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.nav input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1.5px solid var(--primary-color);
+    outline: none;
+    font-size: 15px;
+    color: #fff;
+    background-color: transparent;
+    
+}
+
+.nav-right {
+    display: flex;
+    width: 400px;
+    margin-left: 25px;
+    align-items: center;
+}
