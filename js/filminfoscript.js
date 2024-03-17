@@ -4,12 +4,23 @@ function GetRundomNumber() {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
 var topparant;
 var size;
 var arr = ["العاتولة", "المداح", "الحشاشين", "مسار إجباري", "بيت الرفاعي",
     "صدفة", "لانش بوكس", "سر إلهي", "المعلم", "مصطفى شعبان"];
     
-apeend('parantq', 15);
 
 
 var map =
@@ -39,8 +50,17 @@ function toArabicNumeral(en) {
     });
 }
 
+var params = new URL(document.location).searchParams;
+var idd = params.get("id"); // is the string "Jonathan Smith".
 
-function apeend(topparant,size) {
+var CoverImage = document.getElementById('coverID');
+CoverImage.style.backgroundImage = "url('../images/film ("+idd+").jpeg')";
+
+apeend('parantq', 15,idd);
+
+
+function apeend(topparant, size,idd) {
+    
     for (let i = 0; i < size; i++) {
         let ElemnetCard = document.createElement('div');
         let ElemnetImage = document.createElement('img');
@@ -61,8 +81,8 @@ function apeend(topparant,size) {
         ElemnetCard.className = 'card';
         ElemnetImage.className = 'FilmImage';
         var RundomNumber = GetRundomNumber();
-        console.log("../images/film ("+RundomNumber+").jpeg");
-        ElemnetImage.src = "../images/film ("+8+").jpeg";
+        // console.log("../images/film ("+8+").jpeg");
+        ElemnetImage.src = "../images/film ("+idd+").jpeg";
         ElemnetCardContent.className = 'card-content';   
         
         ElemnetH3.appendChild(TextH3);
