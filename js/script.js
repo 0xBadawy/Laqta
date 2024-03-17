@@ -9,9 +9,9 @@ var size;
 var arr = ["العتاولة", "المداح", "لحشاشين", "مسار إجباري", "بيت الرفاعي",
     "صدفة", "لانش بوكس", "سر إلهي", "المعلم", "مصطفى شعبان"];
 
-apeend('parant2', 40);
-apeend('parant1', 14);
-apeend('parant33', 14);
+apeend('parant2', 42);
+apeend('parant1', 15);
+apeend('parant33', 15);
 
 apeend('parantq', 15);
 
