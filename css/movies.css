@@ -10,7 +10,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background-color: var(--secondary-color);
+    /* background-color: var(--secondary-color); */
     font-family: "Cairo", sans-serif;
     font-family: "Lalezar", system-ui;
     font-family: "Rubik", sans-serif;
@@ -23,6 +23,9 @@
     display: grid;
     height: 310px;
     padding: 20px 0px 0px 0px;
+}
+body{
+    background-color: var(--secondary-color);
 }
 
 

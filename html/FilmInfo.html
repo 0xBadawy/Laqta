@@ -14,8 +14,22 @@
             href="https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&family=Lalezar&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
             rel="stylesheet">
 
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rakkas&display=swap"
+            rel="stylesheet">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Qahiri&display=swap"
+            rel="stylesheet">
+
     </head>
+
     <body>
+
         <div class="cover">
             <div class="Image">
                 <h1>الابطال فى مهمة</h1>
@@ -27,11 +41,36 @@
                 <h2>تابع باقي الحلقات</h2>
             </div>
         </div>
+
         <div class="MainBoxOne">
             <h1>مسلسلات مصرية</h1>
             <div class="parant MoviesOne" id="parantq"></div>
         </div>
+
         <script src="../js/filminfoscript.js"></script>
+
+        <script type="text/javascript">
+             var map =
+    [
+    "&\#1632;","&\#1633;","&\#1634;","&\#1635;","&\#1636;",
+    "&\#1637;","&\#1638;","&\#1639;","&\#1640;","&\#1641;"
+    ];
+
+    function getArabicNumbers(str)
+    {
+        var newStr = "";
+
+        str = String(str);
+
+        for(i=0; i<str.length; i++)
+        {
+            newStr += map[parseInt(str.charAt(i))];
+        }
+
+        return newStr;
+    }
+         </script>
+
     </body>
 
 </html>
