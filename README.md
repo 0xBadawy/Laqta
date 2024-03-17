@@ -9,7 +9,7 @@
 
 </div>
 
-![alt text](<images/Covers/Git (2).png>)
+![alt text](<images/Covers/Git (3).png>)
 <br>
 <br>
 
@@ -21,7 +21,7 @@
 <br>
 <br>
 
-![alt text](<images/Covers/Git (3).png>)
+![alt text](<images/Covers/Git (2).png>)
 
 <br>
 <br><br>
